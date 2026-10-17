@@ -6,7 +6,7 @@
     <title>Pianodle - Daily</title>
 
     <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="src/styles.css">
 </head>
 
 <body>
@@ -35,14 +35,14 @@
 
         <audio id="audio-player"></audio>
         <button id="play-button">
-            <img id="play-button-icon" src="../assets/images/play-button.svg" alt="Play">
+            <img id="play-button-icon" src="assets/images/play-button.svg" alt="Play">
         </button>
     </div>
 
     <div class="search-container">
-        <img class="search-icon" src="../assets/images/magnifying-glass.png">
+        <img class="search-icon" src="assets/images/magnifying-glass.png">
         <input type="text" id="search-bar" placeholder="Guess the piece" required autocomplete="off">
-        <img id="clear-search-button" src="../assets/images/clear-search-icon.svg">
+        <img id="clear-search-button" src="assets/images/clear-search-icon.svg">
         <div id="dropdown"></div>
 
         <button id="skip-button">Skip</button>
@@ -59,18 +59,18 @@
         <div id="end-screen-guess-num"></div>
 
         <button id="close-end-screen-button">
-            <img src="../assets/images/clear-search-icon.svg" alt="Close">
+            <img src="assets/images/clear-search-icon.svg" alt="Close">
         </button>
         
         <div class="youtube-button-container">
             Listen to the full piece:
             <a id="youtube-button" target="_blank" href="https://youtube.com">
-                <img id="youtube-button-icon" src="../assets/images/youtube-icon.png" alt="YouTube">
+                <img id="youtube-button-icon" src="assets/images/youtube-icon.png" alt="YouTube">
             </a>
         </div>
     </dialog>
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script type="module" src="js/main.js"></script>
+    <script type="module" src="src/js/main.js"></script>
 
 </body>
