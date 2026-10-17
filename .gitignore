@@ -1,0 +1,8 @@
+# Ignore sensitive info
+.env
+
+# Ignore installed dependencies
+node_modules/
+
+# Ignore local vscode settings
+.vscode/

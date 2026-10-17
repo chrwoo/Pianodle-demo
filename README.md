@@ -1,2 +1,3 @@
 # Pianodle-demo
-Demo for Pianodle browser game
+Demo showcase for Pianodle browser game
+Altered to not use database
