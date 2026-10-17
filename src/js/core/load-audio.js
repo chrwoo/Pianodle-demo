@@ -12,13 +12,13 @@ export async function initLoadAudio() {
 
     // update play button to show pause or play depending on audio state
     audioPlayer.addEventListener("playing", () => {
-        playButtonIcon.src = "../../../assets/images/pause-button.svg";
+        playButtonIcon.src = "assets/images/pause-button.svg";
     });
     audioPlayer.addEventListener("pause", () => {
-        playButtonIcon.src = "../../../assets/images/play-button.svg";
+        playButtonIcon.src = "assets/images/play-button.svg";
     });
     audioPlayer.addEventListener("ended", () => {
-        playButtonIcon.src = "../../../assets/images/play-button.svg";
+        playButtonIcon.src = "assets/images/play-button.svg";
     });
 }
 
